@@ -13,16 +13,16 @@
       <div class="banner_con cj-logo">
         <img src="{% static '../media/logo_portafolio.png' %}" alt="" class="logotipo">
       </div>
-      <div class="banner_con cj-menu">
-        <ul>
+      <div class="banner_con cj-menu" id="main">
+        <ul >
           <li><a href="#inicio">Inicio</a></li>
           <li><a href="#sobre-mi">Sobre mi</a></li>
           <li><a href="#proyectos">Proyectos</a></li>
           <li><a href="#contacto">Contacto</a></li>
         </ul>
       </div>
-      <div class="banner_con ">
-        <a href=""><img src="{% static '../media/menu.png' %}" alt="" class="img-btn-munu"></a>
+      <div class="banner_con cj-btn-menu">
+        <a href="#" class="btn-menu-ref" onclick="mostrar()" ><img src="{% static '../media/menu.png' %}" alt="" class="img-btn-munu"></a>
       </div>
     </nav>
   </header>  
@@ -48,5 +48,7 @@
   <footer>
     <!-- Contenido del pie de página -->
   </footer>
+
+  <script src="{% static '../static/js/menu-desplegar.js' %}"></script>
 </body>
 </html>

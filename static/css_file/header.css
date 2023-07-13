@@ -79,6 +79,11 @@ li a{
 }
 
 
+.cj-btn-menu{
+    display: none;
+}
+
+
 
 @media screen and (max-width: 1600px){
 
@@ -146,12 +151,28 @@ li a{
 
     header{
         height: 80px;
-        border: solid 1px red;
     }
 
     .banner_con{
         margin: 0 20px;
         
+    }
+
+    /*btn menu desplegar*/
+    .cj-btn-menu{
+        display: flex;
+        width: 30px;
+  
+    }
+
+    .cj-btn-menu .btn-menu-ref{
+        width: 100%;
+        margin: auto;
+    }
+
+    .btn-menu-ref .img-btn-munu{
+        width: 100%;
+        color: aliceblue;
     }
 
     nav .cj-menu{
