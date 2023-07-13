@@ -1,0 +1,52 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio</title>
+  <link rel="stylesheet" href="{% static '../static/css_file/header.css' %}"> <!-- Enlace a tu archivo CSS personalizado -->
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="banner_con cj-logo">
+        <img src="{% static '../media/logo_portafolio.png' %}" alt="" class="logotipo">
+      </div>
+      <div class="banner_con cj-menu">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre-mi">Sobre mi</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="banner_con ">
+        <a href=""><img src="{% static '../media/menu.png' %}" alt="" class="img-btn-munu"></a>
+      </div>
+    </nav>
+  </header>  
+
+  <main>
+    <section id="inicio">
+      <!-- Contenido de la sección de inicio -->
+    </section>
+
+    <section id="sobre-mi">
+      <!-- Contenido de la sección "Sobre Mí" -->
+    </section>
+
+    <section id="proyectos">
+      <!-- Contenido de la sección de proyectos -->
+    </section>
+
+    <section id="contacto">
+      <!-- Contenido de la sección de contacto -->
+    </section>
+  </main>
+
+  <footer>
+    <!-- Contenido del pie de página -->
+  </footer>
+</body>
+</html>
