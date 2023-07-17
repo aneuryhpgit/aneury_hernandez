@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+   /* border-bottom: solid 1px greenyellow;*/
+}
+
+header nav{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+   /* border-bottom: solid 1px red;*/
+}
+
+.banner_con{
+    margin: 0 8%;
+}
+
+.cj-logo{
+    width: 120px;
+    display: flex;
+   /* border: solid 1px yellow;*/
+}
+
+.cj-logo .logotipo{
+    width: 100%;
+    margin: auto;
+   /* border: solid 1px rgb(0, 51, 255);*/
+}
+
+
+nav .cj-menu{
+    display: flex;
+    width: 70%;
+    height: 100%;
+   /* border: solid 1px rgb(255, 106, 0);*/
+}
+
+.cj-menu ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none; /* Elimina los puntos de lista predeterminados */
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+    margin: auto; /* Centra el menú horizontalmente */
+}
+
+.cj-menu ul li {
+    color: azure;
+    margin: 0 30px;
+    border: solid 2px rgb(0, 208, 0);
+    border-radius: 25px;
+    padding: 10px 10px;
+}
+
+
+.cj-menu ul li:hover{
+    background-color: rgba(0, 255, 0, 0.352);
+    box-shadow: 5px 10px 15px rgb(0, 228, 0);
+    
+}
+
+
+li a{
+    margin: 10px 15px;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+.cj-btn-menu{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 1600px){
+
+    .cj-menu ul li {
+        margin: 0 10px;
+
+    }
+    
+    li a{
+        font-size: 1rem;
+    }
+
+    
+}
+
+
+
+
+@media screen and (max-width: 1367px){
+
+    .cj-menu ul li {
+        margin: 0 10px;
+
+    }
+    
+
+    
+}
+
+
+@media screen and (max-width: 1281px){
+
+    .cj-menu ul li {
+        margin: 0 10px;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 1180px){
+    li a{
+        font-size: 1rem;
+    }
+}
+
+
+
+@media screen and (max-width: 1025px){
+
+    
+    .banner_con{
+        margin: 0 5%;
+    }
+    
+    .cj-logo{
+        width: 90px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 900px){
+
+    header{
+        height: 80px;
+    }
+
+    .banner_con{
+        margin: 0 20px;
+        
+    }
+
+    .cj-btn-menu input {
+        display: none;
+    }
+
+    /*btn menu desplegar*/
+    .cj-btn-menu{
+        display: flex;
+        width: 30px;
+  
+    }
+
+   
+
+    .cj-btn-menu .btn-menu-ref{
+        width: 100%;
+        margin: auto;
+    }
+
+    .btn-menu-ref .img-btn-munu{
+        width: 100%;
+        color: aliceblue;
+    }
+
+    nav .cj-menu{
+        display: flex;
+        position: absolute;
+        z-index: 1000;
+        width: 90%;
+        height: 100%;
+        overflow: hidden;
+        background: inherit;
+        background-color: rgba(255, 255, 255, .15);   
+        backdrop-filter: blur(5px);
+        overflow: auto;
+        transition: margin-top 0.3s ease; /* ADDED: Agregamos la transición para el margen superior */
+        margin-top: -300%;
+    }
+
+    
+    /*apariencia de vidrio*/
+    nav .cj-menu:before{
+        position: absolute;
+        box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+        filter: blur(10px);
+        background: inherit;
+
+    }
+
+
+  
+
+    .cj-btn-menu input:checked ~ .cj-menu {
+        opacity: 1;
+    }
+
+    .cj-menu ul{
+        width: 100%;
+        max-width: 260px;
+        display: block;
+        list-style: none; /* Elimina los puntos de lista predeterminados */
+        padding: 5rem; /* Elimina el relleno predeterminado de la lista */
+        margin: auto; /* Centra el menú horizontalmente */
+        border: solid 2px rgb(0, 190, 10);
+        border-radius: 20px;
+       
+    }
+    
+    .cj-menu ul li {
+        display: flex;
+        margin: 30px auto;
+        padding: 10px 10px;
+    }
+    
+    li a{
+        font-size: 1.7rem;
+        margin: auto;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+
+}
+
+
+@media screen and (max-width: 600px){
+
+    .cj-logo{
+        width: 60px;
+    }
+
+}
+
+
+@media screen and (max-width: 375px){
+
+    .cj-logo{
+        width: 50px;
+    }
+
+    .cj-menu ul{
+        max-width: 220px;
+        padding: 4rem 2rem; /* Elimina el relleno predeterminado de la lista */
+        
+    }
+
+    li a{
+        font-size: 1.1rem;
+
+    }
+
+}
+
+
+
+
+
+
+
