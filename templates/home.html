@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mi Portafolio</title>
   <link rel="stylesheet" href="{% static '../static/css_file/header.css' %}"> <!-- Enlace a tu archivo CSS personalizado -->
+  <link rel="stylesheet" href="{% static '../static/css_file/inicio.css' %}"> <!-- Enlace para inicio -->
 </head>
 <body>
   <header>
@@ -13,27 +14,59 @@
       <div class="banner_con cj-logo">
         <img src="{% static '../media/logo_portafolio.png' %}" alt="" class="logotipo">
       </div>
-      <div class="banner_con cj-menu" id="main">
-        <ul >
-          <li><a href="#inicio">Inicio</a></li>
-          <li><a href="#sobre-mi">Sobre mi</a></li>
-          <li><a href="#proyectos">Proyectos</a></li>
-          <li><a href="#contacto">Contacto</a></li>
-        </ul>
-      </div>
       <div class="banner_con cj-btn-menu">
-        <a href="#" class="btn-menu-ref" onclick="mostrar()" ><img src="{% static '../media/menu.png' %}" alt="" class="img-btn-munu"></a>
+        <input type="checkbox" id="toggle" style="display: none;">
+        <label for="toggle" class="btn-menu-ref" onclick="ocultar();"><img src="{% static '../media/menu.png' %}" alt="" class="img-btn-munu"></label>
+      </div>
+      <div class="banner_con cj-menu" id="main">
+        <ul>
+          <li><a href="#inicio" onclick="ocultar();">Inicio</a></li>
+          <li><a href="#sobre-mi" onclick="ocultar();" >Sobre mi</a></li>
+          <li><a href="#proyectos" onclick="ocultar();">Proyectos</a></li>
+          <li><a href="#contacto" onclick="ocultar();">Contacto</a></li>
+        </ul>
       </div>
     </nav>
   </header>  
 
   <main>
-    <section id="inicio">
+    <section id="inicio" class="content-inicio">
       <!-- Contenido de la sección de inicio -->
+      <div class="sub-content-inicio">
+        <div class="content-text-title">
+          <div class="cont-title">
+            <h1>Hi, I'm Aneury Hernandez P.</h1>
+          </div>
+          <div class="cont-sub-title">
+            <p class="sub-title">
+              Step into my captivating online portfolio and explore 
+              my professional expertise as a programmer specializing 
+              in Python, Django, and front-end development. Welcome 
+              to a showcase of my skills and accomplishments.
+            </p>
+          </div>
+          <div class="content-saberMas">
+            <a href="#proyectos" class="saberMas">Explore my work</a>
+          </div>
+        </div>
+        <!-- Imagen de inicio -->
+        <div class="content-img">
+          <div class="cuadro-uno">
+            <video autoplay loop muted>
+              <source src="{% static '../media/clic-presentation.mp4' %}" type="video/mp4">
+            </video>
+            <div class="cuadro-dos">
+              <img src="{% static '../media/logo_portafolio.png' %}" alt="" class="image-profile">
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="sobre-mi">
       <!-- Contenido de la sección "Sobre Mí" -->
+      
+      
     </section>
 
     <section id="proyectos">

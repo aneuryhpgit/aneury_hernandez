@@ -1,11 +1,10 @@
+function ocultar() {
+  var menuElement = document.getElementById("main");
+  var currentMarginTop = parseInt(menuElement.style.marginTop);
 
-
-
-
-function ocultar(){
-    document.getElementById("main").style.display = "none";
-}
-
-function mostrar(){
-    document.getElementById("main").style.display = "block";
+  if (currentMarginTop === 0) {
+    menuElement.style.marginTop = "-400%";
+  } else {
+    menuElement.style.marginTop = "0%";
+  }
 }
