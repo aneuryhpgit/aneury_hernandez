@@ -109,7 +109,7 @@ video source{
     margin: auto;
     border-radius: 50%;
     object-fit: cover;
-    border: solid 8px green;
+    border: solid 8px rgb(0, 177, 0);
 
 }
 

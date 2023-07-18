@@ -1,0 +1,249 @@
+.sobre-mi{
+    width: 100%;
+    height: 70rem;
+    display: flex;
+    margin-bottom: 2rem;
+    margin-top: 20rem;
+    clip-path: polygon(0 27%, 100% 0%, 100% 71%, 0% 100%);
+    background-color: rgb(0, 185, 123);
+
+}
+
+.container-sobre-mi{
+    width: 100%;
+    max-width: 1920px;
+    display: block;
+    margin: auto;
+
+}
+
+.content-title-targe{
+    width: 100%;
+    display: flex;
+    margin-bottom: 3rem;
+
+}
+
+.content-title-targe h2{
+    font-size: 3rem;
+    font-weight: bold;
+    margin: auto;
+    color: aliceblue;
+}
+
+.sobre-mi-contenido{
+    width: 100%;
+    max-width: 1000px;
+    padding: 0.4rem;
+    
+    margin: auto;
+    display: flex;
+    border-radius: 20px;
+    background-color: rgb(4, 4, 4);
+    box-shadow: 0 8px 32px 0 rgba(6, 36, 1, 0.485);
+}
+
+
+
+/*content imagen*/
+.content-img-user{
+    width: 30%;
+
+}
+
+.img-user{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.data-user{
+    width: 70%;
+    height: 500px;
+
+}
+
+.title-id{
+    width: 100%;
+    display: flex;
+
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.title-id p{
+    font-size: 2rem;
+    margin: auto;
+    color: aliceblue;
+}
+
+.data-tex-user{
+    width: 100%;
+    margin-top: 25px;
+    color: aliceblue;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.data-tex-user span{
+    font-weight: bold;
+}
+
+
+.abilid-user{
+    width: 100%;
+}
+
+.conten-skills{
+    width: 100%;
+    display: flex;
+    margin-top: 2rem;
+}
+
+.title-abilid{
+    color: aliceblue;
+    margin: auto;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.btn-kills{
+    width: 100%;
+    display: flex;
+    margin-top: 1rem;
+}
+
+.btn-kills p{
+    color: aliceblue;
+    font-size: 2rem;
+    margin: auto;
+    margin-left: 1rem;
+}
+
+/**/
+
+.icon-program{
+  width: 100%;
+  display: flex;
+  margin-top: 1rem;
+}
+
+.pgr{
+  width: 50px;
+  height: 50px;
+  margin: auto;
+
+}
+
+.python{
+    border-radius: 50%;
+    background-color: aliceblue;
+    background-color: yellow;
+    box-shadow: 0 0 20px 10px yellow;
+    animation: parpadeo 1s infinite;
+}
+
+@keyframes parpadeo {
+    0% {
+      box-shadow: 0 0 20px 10px rgb(0, 68, 255);
+    }
+    50% {
+      box-shadow: none;
+    }
+    100% {
+      box-shadow: 0 0 20px 10px rgb(0, 51, 255);
+    }
+}
+
+.django{
+    border-radius: 50%;
+    background-color: aliceblue;
+    background-color: yellow;
+    box-shadow: 0 0 20px 10px yellow;
+    animation: parpadeodj 1s infinite;
+}
+
+@keyframes parpadeodj {
+    0% {
+      box-shadow: 0 0 20px 10px rgb(52, 148, 0);
+    }
+    50% {
+      box-shadow: none;
+    }
+    100% {
+      box-shadow: 0 0 20px 10px rgb(0, 156, 13);
+    }
+}
+
+.html{
+    border-radius: 50%;
+    background-color: aliceblue;
+    background-color: yellow;
+    box-shadow: 0 0 20px 10px yellow;
+    animation: parpadeohtml 1s infinite;
+}
+
+@keyframes parpadeohtml {
+    0% {
+      box-shadow: 0 0 20px 10px rgb(223, 80, 3);
+    }
+    50% {
+      box-shadow: none;
+    }
+    100% {
+      box-shadow: 0 0 20px 10px rgb(213, 67, 0);
+    }
+}
+
+.css{
+    border-radius: 50%;
+    background-color: aliceblue;
+    background-color: yellow;
+    box-shadow: 0 0 20px 10px yellow;
+    animation: parpadeocss 1s infinite;
+}
+
+@keyframes parpadeocss {
+    0% {
+      box-shadow: 0 0 20px 10px rgb(0, 183, 255);
+    }
+    50% {
+      box-shadow: none;
+    }
+    100% {
+      box-shadow: 0 0 20px 10px rgb(0, 145, 255);
+    }
+}
+
+
+.javascript-img{
+    border-radius: 50%;
+    background-color: aliceblue;
+    background-color: yellow;
+    box-shadow: 0 0 20px 10px yellow;
+    animation: parpadeojs 1s infinite;
+}
+
+@keyframes parpadeojs {
+    0% {
+      box-shadow: 0 0 20px 10px yellow;
+    }
+    50% {
+      box-shadow: none;
+    }
+    100% {
+      box-shadow: 0 0 20px 10px rgb(255, 238, 0);
+    }
+}
+
+
+.imagen-icon{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+
+

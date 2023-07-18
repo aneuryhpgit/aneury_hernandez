@@ -4,9 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi Portafolio</title>
+  <title>@aneuryhp</title>
   <link rel="stylesheet" href="{% static '../static/css_file/header.css' %}"> <!-- Enlace a tu archivo CSS personalizado -->
   <link rel="stylesheet" href="{% static '../static/css_file/inicio.css' %}"> <!-- Enlace para inicio -->
+  <link rel="stylesheet" href="{% static '../static/css_file/sobre-mi.css' %}"> <!-- Enlace para targeta sobre mi -->
 </head>
 <body>
   <header>
@@ -20,10 +21,10 @@
       </div>
       <div class="banner_con cj-menu" id="main">
         <ul>
-          <li><a href="#inicio" onclick="ocultar();">Inicio</a></li>
-          <li><a href="#sobre-mi" onclick="ocultar();" >Sobre mi</a></li>
-          <li><a href="#proyectos" onclick="ocultar();">Proyectos</a></li>
-          <li><a href="#contacto" onclick="ocultar();">Contacto</a></li>
+          <li><a href="#inicio" onclick="ocultar();">Start</a></li>
+          <li><a href="#sobre-mi" onclick="ocultar();">About</a></li>
+          <li><a href="#proyectos" onclick="ocultar();">Proyects</a></li>
+          <li><a href="#contacto" onclick="ocultar();">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -35,7 +36,7 @@
       <div class="sub-content-inicio">
         <div class="content-text-title">
           <div class="cont-title">
-            <h1>Hi, I'm Aneury Hernandez P.</h1>
+            <h1>Hello.</h1>
           </div>
           <div class="cont-sub-title">
             <p class="sub-title">
@@ -63,10 +64,40 @@
       </div>
     </section>
 
-    <section id="sobre-mi">
+    <section id="sobre-mi" class="sobre-mi">
       <!-- Contenido de la sección "Sobre Mí" -->
-      
-      
+      <div class="container-sobre-mi">
+        <div class="content-title-targe">
+          <h2>About</h2>
+        </div>
+        <div class="sobre-mi-contenido">
+          <div class="content-img-user">
+            <img src="{% static '../media/logo_portafolio.png' %}" alt="Mi fotografía" class="img-user">
+          </div>
+          <div class="data-user">
+            <div class="title-id"><p>IDENTIFICATION</p></div>
+            <div class="data-tex-user"><p><span>Name: </span>Aneury Hernandez Peguero</p></div>
+            <div class="data-tex-user"><p><span>Nationality: </span>Dominican</p></div>
+            <div class="data-tex-user"><p><span>Opcupation: </span>Web developer</p></div>
+            <div class="abilid-user">
+              <div class="conten-skills">
+                <p class="title-abilid">Skills</p>
+              </div>
+              <div class="btn-kills">
+                <p>Python  Django</p>
+                <p>Front-end</p>
+              </div>
+              <div class="icon-program">
+                  <div class="python pgr"><img src="{% static '../media/python-removebg-preview.png' %}" alt="" class="imagen-icon"></div>
+                  <div class="django pgr"><img src="{% static '../media/django-removebg-preview.png' %}" alt="" class="imagen-icon"></div>
+                  <div class="html pgr"><img src="{% static '../media/html5.png' %}" alt="" class="imagen-icon"></div>
+                  <div class="css pgr"><img src="{% static '../media/css-3.png' %}" alt="" class="imagen-icon"></div>
+                  <div class="javascript-img pgr"><img src="{% static '../media/secuencia-de-comandos-de-java.png' %}" alt="" class="imagen-icon"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="proyectos">
