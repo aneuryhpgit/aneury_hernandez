@@ -1,6 +1,6 @@
 .sobre-mi{
     width: 100%;
-    height: 70rem;
+    height: 80rem;
     display: flex;
     margin-bottom: 2rem;
     margin-top: 20rem;
@@ -40,8 +40,12 @@
     display: flex;
     border-radius: 20px;
     background-color: rgb(4, 4, 4);
-    box-shadow: 0 8px 32px 0 rgba(6, 36, 1, 0.485);
+    box-shadow: 0 0 25px rgba(89, 255, 0, 0.356), inset 0 0 10px rgba(241, 255, 234, 0.312), inset 0 0 50px rgba(255, 255, 255, 0.279), inset 0 0 100px rgba(255, 0, 149, 0.274);
+    background-image: linear-gradient(to bottom right, #95ff00, #ff0000);
+    animation: target 2s infinite;
 }
+
+
 
 
 
@@ -133,6 +137,7 @@
   width: 50px;
   height: 50px;
   margin: auto;
+  border: solid 5px rgb(255, 255, 217);
 
 }
 
@@ -140,102 +145,50 @@
     border-radius: 50%;
     background-color: aliceblue;
     background-color: yellow;
-    box-shadow: 0 0 20px 10px yellow;
-    animation: parpadeo 1s infinite;
+    
+    
 }
 
-@keyframes parpadeo {
-    0% {
-      box-shadow: 0 0 20px 10px rgb(0, 68, 255);
-    }
-    50% {
-      box-shadow: none;
-    }
-    100% {
-      box-shadow: 0 0 20px 10px rgb(0, 51, 255);
-    }
-}
+
 
 .django{
     border-radius: 50%;
     background-color: aliceblue;
     background-color: yellow;
-    box-shadow: 0 0 20px 10px yellow;
-    animation: parpadeodj 1s infinite;
+
 }
 
-@keyframes parpadeodj {
-    0% {
-      box-shadow: 0 0 20px 10px rgb(52, 148, 0);
-    }
-    50% {
-      box-shadow: none;
-    }
-    100% {
-      box-shadow: 0 0 20px 10px rgb(0, 156, 13);
-    }
-}
+
 
 .html{
     border-radius: 50%;
     background-color: aliceblue;
     background-color: yellow;
-    box-shadow: 0 0 20px 10px yellow;
-    animation: parpadeohtml 1s infinite;
+
+  
 }
 
-@keyframes parpadeohtml {
-    0% {
-      box-shadow: 0 0 20px 10px rgb(223, 80, 3);
-    }
-    50% {
-      box-shadow: none;
-    }
-    100% {
-      box-shadow: 0 0 20px 10px rgb(213, 67, 0);
-    }
-}
+
 
 .css{
     border-radius: 50%;
     background-color: aliceblue;
     background-color: yellow;
-    box-shadow: 0 0 20px 10px yellow;
-    animation: parpadeocss 1s infinite;
+
+ 
 }
 
-@keyframes parpadeocss {
-    0% {
-      box-shadow: 0 0 20px 10px rgb(0, 183, 255);
-    }
-    50% {
-      box-shadow: none;
-    }
-    100% {
-      box-shadow: 0 0 20px 10px rgb(0, 145, 255);
-    }
-}
+
 
 
 .javascript-img{
     border-radius: 50%;
     background-color: aliceblue;
     background-color: yellow;
-    box-shadow: 0 0 20px 10px yellow;
-    animation: parpadeojs 1s infinite;
+
+
 }
 
-@keyframes parpadeojs {
-    0% {
-      box-shadow: 0 0 20px 10px yellow;
-    }
-    50% {
-      box-shadow: none;
-    }
-    100% {
-      box-shadow: 0 0 20px 10px rgb(255, 238, 0);
-    }
-}
 
 
 .imagen-icon{
@@ -243,6 +196,457 @@
     object-fit: cover;
     border-radius: 50%;
 }
+
+
+
+@media screen and (max-width: 1601px) {
+
+  .sobre-mi{
+    height: 60rem;
+
+  }
+
+  .sobre-mi-contenido{
+    width: 800px;
+
+  }
+
+  .data-user{
+    height: 400px;
+
+  }
+
+  .title-id{
+
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
+
+  .title-id p{
+    font-size: 1.5rem;
+
+  }
+
+
+  .data-tex-user{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
+
+  .conten-skills{
+    margin-top: 2.5rem;
+  }
+
+  .title-abilid{
+    font-size: 1.5rem;
+  }
+
+  .btn-kills{
+    margin-top: 1rem;
+  }
+
+  .btn-kills p{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+
+  .icon-program{
+    margin-top: 0.7rem;
+  }
+
+  .pgr{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    border: solid 5px rgb(255, 255, 217);
+  
+  }
+
+}
+
+
+@media screen and (max-width: 1280px) {
+
+  .sobre-mi{
+    height: 50rem;
+
+  }
+
+  .sobre-mi-contenido{
+    width: 700px;
+    margin-top: -2rem;
+
+  }
+
+  .data-user{
+    height: 340px;
+
+  }
+
+  .title-id{
+
+    margin-bottom: 1.5rem;
+    margin-top: 0.7rem;
+  }
+
+  .title-id p{
+    font-size: 1.3rem;
+
+  }
+
+
+  .data-tex-user{
+    font-size: 1.3rem;
+    margin-top: 0.7rem;
+    margin-left: 1.7rem;
+  }
+
+  .conten-skills{
+    margin-top: 2rem;
+  }
+
+  .title-abilid{
+    font-size: 1.3rem;
+  }
+
+  .btn-kills{
+    margin-top: 0.7rem;
+  }
+
+  .btn-kills p{
+    font-size: 1.3rem;
+    margin-left: 1rem;
+  }
+
+  .icon-program{
+    margin-top: 0.7rem;
+  }
+
+  .pgr{
+    width: 40px;
+    height: 40px;
+  
+  }
+  
+  
+}
+
+
+@media screen and (max-width: 1025px) {
+
+
+  .sobre-mi{
+    height: 50rem;
+  }
+
+  .sobre-mi-contenido{
+    width: 600px;
+    margin-top: -2rem;
+
+  }
+
+  .data-user{
+    height: 320px;
+  }
+
+  .title-id{
+    margin-bottom: 1.3rem;
+    margin-top: 0.7rem;
+  }
+
+  .title-id p{
+    font-size: 1.2rem;
+  }
+
+  .data-tex-user{
+    font-size: 1.1rem;
+    margin-top: 0.7rem;
+    margin-left: 1.7rem;
+  }
+
+  .conten-skills{
+    margin-top: 2rem;
+  }
+
+  .title-abilid{
+    font-size: 1.3rem;
+  }
+
+  .btn-kills{
+    margin-top: 0.7rem;
+  }
+
+  .btn-kills p{
+    font-size: 1.1rem;
+    margin-left: 1rem;
+  }
+
+  .icon-program{
+    margin-top: 0.7rem;
+  }
+
+  .pgr{
+    width: 35px;
+    height: 35px;
+  
+  }
+  
+}
+
+@media screen and (max-width: 852px) {
+
+  
+.content-title-targe h2{
+  margin-top: -5rem;
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+}
+
+  .sobre-mi-contenido{
+    width: 400px;
+    height: 230px;
+    margin-top: -5rem;
+
+
+  }
+
+
+  .data-user{
+    height: 290px;
+  }
+
+  .title-id{
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .title-id p{
+    font-size: 0.8rem;
+  }
+
+  .data-tex-user{
+    font-size: 0.8rem;
+    margin-top: 0.8rem;
+    margin-left: 0.7rem;
+  }
+
+  .conten-skills{
+    margin-top: 1.2rem;
+  }
+
+  .title-abilid{
+    font-size: 1rem;
+  }
+
+  .btn-kills{
+    margin-top: 0.7rem;
+  }
+
+  .btn-kills p{
+    font-size: 0.9rem;
+    margin-left: 0.3rem;
+  }
+
+  .icon-program{
+    margin-top: 0.5rem;
+  }
+
+  .pgr{
+    width: 20px;
+    height: 20px;
+  
+  }
+  
+}
+
+
+@media screen and (max-width: 450px) {
+
+  
+  .content-title-targe h2{
+    margin-top: -5rem;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+  }
+  
+    .sobre-mi-contenido{
+      width: 380px;
+      height: 230px;
+      margin-top: -5rem;
+  
+  
+    }
+  
+  
+    .data-user{
+      height: 250px;
+    }
+  
+   
+    
+  }
+
+
+
+
+  @media screen and (max-width: 400px) {
+
+
+    .content-title-targe h2{
+      margin-top: -5rem;
+      margin-bottom: 3rem;
+      font-size: 2rem;
+    }
+    
+      .sobre-mi-contenido{
+        width: 320px;
+        height: 200px;
+        margin-top: -5rem;
+    
+    
+      }
+    
+    
+      .data-user{
+        height: 240px;
+      }
+
+  
+    
+    
+      .title-id{
+        margin-bottom: 0.3rem;
+        margin-top: 0.3rem;
+      }
+    
+      .title-id p{
+        font-size: 0.7rem;
+      }
+    
+      .data-tex-user{
+        font-size: 0.7rem;
+        margin-top: 0.7rem;
+        margin-left: 0.4rem;
+      }
+    
+      .conten-skills{
+        margin-top: 1rem;
+      }
+    
+      .title-abilid{
+        font-size: 0.8rem;
+      }
+    
+      .btn-kills{
+        margin-top: 0.5rem;
+      }
+    
+      .btn-kills p{
+        font-size: 0.7rem;
+        margin-left: 0.3rem;
+      }
+    
+      .icon-program{
+        margin-top: 0.5rem;
+      }
+    
+      .pgr{
+        width: 15px;
+        height: 15px;
+      
+      }
+      
+}
+
+
+
+
+
+@media screen and (max-width: 280px) {
+
+  .sobre-mi{
+    height: 40rem;
+    margin-top: 8rem;
+
+  }
+
+
+  .content-title-targe h2{
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+  }
+  
+    .sobre-mi-contenido{
+      width: 240px;
+      height: 150px;
+      margin-top: -2rem;
+  
+  
+    }
+  
+  
+    .data-user{
+      height: 220px;
+    }
+
+
+  
+  
+    .title-id{
+      margin-bottom: 0.3rem;
+      margin-top: 0.3rem;
+    }
+  
+    .title-id p{
+      font-size: 0.5rem;
+    }
+  
+    .data-tex-user{
+      font-size: 0.5rem;
+      margin-top: 0.7rem;
+      margin-left: 0.4rem;
+    }
+  
+    .conten-skills{
+      margin-top: 0.5rem;
+    }
+  
+    .title-abilid{
+      font-size: 0.6rem;
+    }
+  
+    .btn-kills{
+      margin-top: 0.5rem;
+    }
+  
+    .btn-kills p{
+      font-size: 0.5rem;
+      margin-left: 0.3rem;
+    }
+  
+    .icon-program{
+      margin-top: 0.5rem;
+    }
+  
+    .pgr{
+      width: 14px;
+      height: 14px;
+      border: solid 2px rgb(255, 255, 217);
+    
+    }
+    
+  }
+
+
+  
+
+
+
+
+
+  
 
 
 

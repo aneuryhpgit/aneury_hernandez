@@ -151,6 +151,7 @@ li a{
 
     header{
         height: 80px;
+        
     }
 
     .banner_con{
@@ -174,16 +175,18 @@ li a{
     .cj-btn-menu .btn-menu-ref{
         width: 100%;
         margin: auto;
+        
     }
 
     .btn-menu-ref .img-btn-munu{
         width: 100%;
         color: aliceblue;
+        
     }
 
     nav .cj-menu{
         display: flex;
-        position: absolute;
+        position: fixed;
         z-index: 1000;
         width: 90%;
         min-height: 100%;
