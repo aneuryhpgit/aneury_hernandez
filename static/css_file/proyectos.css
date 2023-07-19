@@ -185,6 +185,10 @@
 
 @media screen and (max-width: 300px) {
 
+    .title-galery h2{
+        font-size: 2rem;
+    }
+
     .proyectos{
         margin-top: 10rem;
     }

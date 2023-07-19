@@ -1,0 +1,251 @@
+.contactos-section{
+    width: 100%;
+    max-width: 1900px;
+    margin-top: 20rem;
+    margin-bottom: 10rem;
+    display: flex;
+
+}
+
+
+.sub-content-cont{
+    width: 80%;
+    margin: auto;
+
+}
+
+
+.title-contacto{
+    width: 100%;
+    display: flex;
+    margin-bottom: 4rem;
+}
+
+
+.title-contacto h2{
+    font-size: 3rem;
+    margin: auto;
+    color: aliceblue;
+}
+
+
+.sub-content-cont .content-etiquet-contac{
+    width: 100%;
+    display: flex;
+
+}
+
+
+.contac{
+    max-width: 250px;
+    min-width: 50px;
+    display: flex;
+    margin: auto;
+}
+
+.contac a{
+    width: 100%;
+    margin: auto;
+    border-radius: 50%;
+    border: solid 5px rgb(73, 255, 1);
+    background-color: rgb(47, 255, 0);
+    display: flex;
+}
+
+.contac a img{
+    width: 100%;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.content-etiquet-contac .correo-direc{
+    width: auto;
+    height: 20px;
+    position: absolute;
+    margin-top: 10%;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    background-color: rgb(0, 169, 101);
+    color: aliceblue;
+    margin-left: 6rem;
+}
+
+
+.correo-direc p{
+    color: aliceblue;
+}
+
+
+@media screen and (max-width: 1600px) {
+
+    .content-etiquet-contac .correo-direc{
+        margin-top: 12%;
+        margin-left: 3rem;
+    }
+    
+    
+}
+
+
+@media screen and (max-width: 1367px) {
+
+    .content-etiquet-contac .correo-direc{
+        margin-top: 14%;
+        margin-left: 1rem;
+    }
+    
+    
+}
+
+
+@media screen and (max-width: 1281px) {
+
+    .content-etiquet-contac .correo-direc{
+        margin-top: 15%;
+        margin-left: 0.8rem;
+    }
+    
+    
+}
+
+
+@media screen and (max-width: 1181px) {
+
+    .content-etiquet-contac .correo-direc{
+        margin-top: 17%;
+        margin-left: 0rem;
+    }
+    
+    
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .contac{
+        width: 100px;
+    }
+
+    .sub-content-cont{
+        width: 90%;
+
+    }
+
+    .content-etiquet-contac .correo-direc{
+        margin-top: 19%;
+        margin-left: 0rem;
+    }
+    
+    
+}
+
+
+
+@media screen and (max-width: 916px) {
+
+    .sub-content-cont{
+        width: 90%;
+
+    }
+
+    .content-etiquet-contac .correo-direc{
+        font-size: 1.1rem;
+        margin-top: 21%;
+        margin-left: -1rem;
+    }
+    
+    
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+    .contac{
+        max-width: 150px;
+    }
+
+ 
+    
+    
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .gmail-cont{
+        display: none;
+    }
+
+
+    .content-etiquet-contac .correo-direc{
+        position: static;
+        margin-top: 10%;
+        font-size: 0.8rem;
+        margin-left: 0.5rem;
+    }
+    
+}
+
+
+@media screen and (max-width: 541px) {
+
+    .contactos-section{
+        margin-top: 10rem;
+    }
+
+    .title-contacto h2{
+        font-size: 2rem;
+    }
+
+    .gmail-cont{
+        display: none;
+    }
+
+
+    .content-etiquet-contac .correo-direc{
+        position: absolute;
+        margin-top: 32%;
+        font-size: 0.8rem;
+        margin-left: 22%;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 450px) {
+
+
+
+
+    .content-etiquet-contac .correo-direc{
+        position: absolute;
+        margin-top: 30%;
+        font-size: 0.8rem;
+        margin-left: 12%;
+        padding-top: 10px;
+    }
+    
+}
+
+
+@media screen and (max-width: 300px) {
+
+
+    .content-etiquet-contac .correo-direc{
+        position: absolute;
+        margin-top: 50%;
+        font-size: 0.8rem;
+        margin-left: 3%;
+    
+    }
+    
+}
+
+
+
+

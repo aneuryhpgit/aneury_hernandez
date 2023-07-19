@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="{% static '../static/css_file/inicio.css' %}"> <!-- Enlace para inicio -->
   <link rel="stylesheet" href="{% static '../static/css_file/sobre-mi.css' %}"> <!-- Enlace para targeta sobre mi -->
   <link rel="stylesheet" href="{% static '../static/css_file/proyectos.css' %}"> <!-- Enlace para targeta proyectos -->
+  <link rel="stylesheet" href="{% static '../static/css_file/contacto.css' %}"> <!-- Enlace para targeta contactos -->
 </head>
 <body>
   <header>
@@ -142,7 +143,7 @@
                 <div class="lenguage-uno">
                   <img src="{% static '../media/secuencia-de-comandos-de-java.png' %}" alt="" class="lenguage">
                   <div class="progres-bar js-bluubum">
-                    <samp class="progres-bar-tex tex-js-bluubum">37%</samp>
+                    <samp class="progres-bar-tex tex-js-bluubum">17%</samp>
                   </div>
                 </div>
               </div>
@@ -233,10 +234,36 @@
 
     </section>
 
-    <section id="contacto">
+    <section id="contacto" class="contactos-section">
       <!-- Contenido de la sección de contacto -->
-      
+      <div class="sub-content-cont">
+        <div class="title-contacto">
+          <h2>Contacto</h2>
+        </div>
+        <div class="content-etiquet-contac">
+          <div class="correo-direc">
+            <p class="direc">
+              aneuryhernandez46@gmail.com
+            </p>
+          </div>
+          <div class="contac gmail-cont">
+            <a>
+              <img src="{% static '../media/gmail_732200.png' %}" alt=""> 
+            </a>
+          </div>
+          <div class="contac">
+            <a href="https://www.linkedin.com/in/aneury-hern%C3%A1ndez-peguero-baa306235/">
+              <img src="{% static '../media/linkedin_3536505.png' %}" alt="">
+            </a> 
+          </div>
+          <div class="contac">
+            <a href="https://github.com/aneuryhpgit/">
+              <img src="{% static '../media/github_270798.png' %}" alt="">
+            </a>
+          </div>
+        </div>
 
+      </div>
     </section>
   </main>
 
