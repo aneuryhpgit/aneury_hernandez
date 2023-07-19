@@ -29,20 +29,32 @@
     font-weight: bold;
     margin: auto;
     color: aliceblue;
+    transition: 1s;
+}
+
+.content-title-targe h2:hover{
+  transform: scale(1.1);
+  transition: 1s;
 }
 
 .sobre-mi-contenido{
     width: 100%;
     max-width: 1000px;
     padding: 0.4rem;
-    
     margin: auto;
     display: flex;
     border-radius: 20px;
     background-color: rgb(4, 4, 4);
-    box-shadow: 0 0 25px rgba(89, 255, 0, 0.356), inset 0 0 10px rgba(241, 255, 234, 0.312), inset 0 0 50px rgba(255, 255, 255, 0.279), inset 0 0 100px rgba(255, 0, 149, 0.274);
+    box-shadow: 0 10px 25px 8px rgba(89, 255, 0, 0.356), inset 0 0 10px rgba(241, 255, 234, 0.312), inset 0 0 50px rgba(255, 255, 255, 0.279), inset 0 0 100px rgba(255, 0, 149, 0.274);
     background-image: linear-gradient(to bottom right, #95ff00, #ff0000);
     animation: target 2s infinite;
+    transition: 2s;
+}
+
+
+.sobre-mi-contenido:hover{
+  transform: scale(1.04);
+  transition: 2s;
 }
 
 
@@ -138,7 +150,13 @@
   height: 50px;
   margin: auto;
   border: solid 5px rgb(255, 255, 217);
+  transition: 1s;
 
+}
+
+.pgr:hover{
+  transform: scale3d(1.2, 1.2, 0.2);
+  transition: 1s;
 }
 
 .python{

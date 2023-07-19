@@ -188,7 +188,7 @@ li a{
         display: flex;
         position: fixed;
         z-index: 1000;
-        width: 90%;
+        width: 100%;
         min-height: 100%;
         overflow: hidden;
         background: inherit;
@@ -197,6 +197,7 @@ li a{
         overflow: auto;
         transition: margin-top 1s ease; /* ADDED: Agregamos la transición para el margen superior */
         margin-top: -400%;
+        margin-left: 0;
     }
 
     

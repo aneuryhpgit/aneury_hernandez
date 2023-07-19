@@ -28,7 +28,11 @@
     font-weight: bold;
     margin: auto;
     color: aliceblue;
+    transition: transform 0.3s ease-in-out;
+    
 }
+
+
 
 .content-text-title .cont-sub-title{
     width: 100%;
