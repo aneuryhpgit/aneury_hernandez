@@ -5,8 +5,8 @@
     clip-path: polygon(0 0, 100% 29%, 100% 100%, 0 71%);
     display: flex;
     background-color: rgb(1, 5, 57);
-
 }
+
 
 
 .sub-content-destroy{
@@ -14,12 +14,11 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     margin: auto;
-    border: solid 1px red;
 }
+
 
 .content-text-destroy{
     width: 100%;
-    border: solid 1px yellow;
 }
 
 
@@ -155,12 +154,20 @@
 }
 
 
+.cubo div video{
+    width: 100%;
+    opacity: 0.3;
+    object-fit: cover;
+}
+
+
 
 
 
 .img-from{
+    position: absolute;
     width: 40%;
-    margin: auto;
+    margin: 25% 25%;
     border-radius: 50%;
     border: solid 0.5rem rgb(0, 205, 0);
     box-shadow: 0 8px 32px 0px rgba(0, 0, 0, 0.381);
@@ -433,6 +440,20 @@
 
 
 
+@media screen and (max-width: 768px){
+    .title-destroy{
+        font-size: 1.5rem;
+
+    }
+
+    .conten-text-tech{
+        font-size: 1.5rem;
+    }
+
+}
+
+
+
 @media screen and (max-width: 725px){
     .title-destroy{
         font-size: 1.2rem;
@@ -470,10 +491,12 @@
 
     .text-detroy{
         margin-left: 1.5rem;
+        text-align: center;
     }
 
     .conten-text-tech{
         font-size: 1.5rem;
+        text-align: center;
     }
 
 
@@ -493,7 +516,6 @@
 
     .envoltura{
         margin: auto;
-        border: solid 1px gray;
     }
 
 
@@ -537,6 +559,10 @@
     .conten-text-tech{
         margin-bottom: 4rem;
         text-align: center;
+    }
+
+    .title-destroy{
+        font-size: 1.4rem;
     }
     
 }
