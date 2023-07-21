@@ -1,0 +1,453 @@
+.content-inicio{
+    width: 100%;
+    margin: 3rem 0;
+    display: flex;
+}
+
+.sub-content-inicio{
+    width: 100%;
+    max-width: 1900px;
+    display: grid;
+    grid-template-columns: 3fr 2fr; 
+    margin: auto;
+
+}
+
+.content-text-title{
+    display: block;
+
+}
+
+.content-text-title .cont-title{
+    width: 100%;
+    display: flex;
+}
+
+.cont-title h1{
+    font-size: 4rem;
+    font-weight: bold;
+    margin: auto;
+    color: aliceblue;
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+
+
+.content-text-title .cont-sub-title{
+    width: 100%;
+    display: flex;
+
+}
+
+.cont-sub-title .sub-title{
+    width: 80%;
+    font-size: 2.5rem;
+    color: aliceblue;
+    margin: 3rem auto;
+    
+}
+
+.content-text-title .content-saberMas{
+    width: 100%;
+    display: flex;
+}
+
+.content-saberMas .saberMas{
+    font-size: 1.5rem;
+    color: aliceblue;
+    width: auto;
+    margin: 2rem auto;
+}
+
+
+/*Content image*/
+.sub-content-inicio .content-img{
+    
+    display: flex;
+}
+
+.content-img .cuadro-uno{
+    width: 500px;
+    height: 500px;
+    margin: 3rem;
+    background-color: rgb(0, 205, 0);
+    border-radius: 10px;
+}
+
+.cuadro-uno video {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+video source{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.cuadro-uno .cuadro-dos{
+    width: 450px;
+    height: 450px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    margin-top: -107%;
+    margin-left: -2rem;
+    background-color: rgba(138, 138, 138, 0.252);
+    box-shadow: 0 8px 32px 0 rgba(34, 34, 34, 0.33);
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+
+}
+
+
+.cuadro-dos .image-profile{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    border: solid 8px rgb(0, 177, 0);
+
+}
+
+
+@media screen and (max-width: 1600px) {
+
+    .cont-title h1{
+        font-size: 2.7rem;
+
+    }
+
+    .cont-sub-title .sub-title{
+        width: 80%;
+        font-size: 1.8rem;
+        margin: 3rem auto;
+    
+        
+    }
+
+    .content-saberMas .saberMas{
+        font-size: 1rem;
+    }
+
+
+    .content-img .cuadro-uno{
+        width: 400px;
+        height: 400px;
+        margin: 2rem;
+    }
+
+
+    .cuadro-uno .cuadro-dos{
+        width: 370px;
+        height: 370px;
+    
+    }  
+
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .cont-title h1{
+        font-size: 1.8rem;
+    }
+
+    .cont-sub-title .sub-title{
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+        
+    }
+
+    .content-saberMas .saberMas{
+        font-size: 1rem;
+        margin: 0 auto;
+    }
+
+
+    .content-img .cuadro-uno{
+        width: 300px;
+        height: 300px;
+        margin: 2rem;
+    }
+
+
+    .cuadro-uno .cuadro-dos{
+        width: 270px;
+        height: 270px;
+    }  
+
+    .cuadro-dos .image-profile{
+        width: 150px;
+        height: 150px;
+        border: solid 4px green;
+    
+    }
+    
+}
+
+
+
+@media screen and (max-width: 850px) {
+
+    .cont-title h1{
+        font-size: 1.5rem;
+    }
+
+    .cont-sub-title .sub-title{
+        font-size: 1.1rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+
+    .content-img .cuadro-uno{
+        width: 250px;
+        height: 250px;
+        margin: 2rem;
+    }
+
+
+    .cuadro-uno .cuadro-dos{
+        width: 220px;
+        height: 220px;
+    }  
+
+    .cuadro-dos .image-profile{
+        width: 120px;
+        height: 120px;
+        border: solid 3px green;
+    
+    }
+
+
+    
+}
+
+
+@media screen and (max-width: 670px){
+
+    .cont-title h1{
+        font-size: 1.2rem;
+    }
+
+    .cont-sub-title .sub-title{
+        width: 94%;
+        font-size: 1.1rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    
+}
+
+
+@media screen and (max-width: 550px) {
+    .sub-content-inicio{
+        display: grid;
+        grid-template-columns: repeat(1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-template-areas: 
+        "n1 n1"
+        "n2 n2"
+        ;
+        margin: auto;
+ 
+    }
+
+
+    .content-text-title{
+        grid-area: n2;
+    }
+
+
+    .sub-content-inicio .content-img{
+        grid-area: n1;
+
+    }
+
+
+
+    .content-img .cuadro-uno{
+        width: 350px;
+        height: 350px;
+        margin: auto;
+        
+    }
+
+
+    .cuadro-uno .cuadro-dos{
+        width: 340px;
+        height: 340px;
+    
+    }  
+
+
+    .cuadro-dos .image-profile{
+        width: 200px;
+        height: 200px;
+        border: solid 5px green;
+    }
+
+
+    .cont-title h1{
+        font-size: 1.8rem;
+        margin: 1rem auto;
+
+    }
+
+    .cont-sub-title .sub-title{
+        width: 96%;
+        font-size: 1.4rem;
+        margin: 1rem auto;
+        text-align: center;
+    
+        
+    }
+
+    .content-saberMas .saberMas{
+        font-size: 1rem;
+        
+    }
+
+    
+}
+
+
+@media screen and (max-width: 415px) {
+
+
+    .content-img .cuadro-uno{
+        width: 300px;
+        height: 300px;
+        margin: auto;
+        
+    }
+
+
+    .cuadro-uno .cuadro-dos{
+        width: 280px;
+        height: 280px;
+    
+    }  
+
+
+    .cuadro-dos .image-profile{
+        width: 150px;
+        height: 150px;
+        border: solid 5px green;
+    }
+
+
+    .cont-title h1{
+        font-size: 1.5rem;
+        margin: 1rem auto;
+
+    }
+
+    .cont-sub-title .sub-title{
+        width: 96%;
+        font-size: 1.2rem;
+        margin: 1rem auto; 
+    }
+
+    .content-saberMas .saberMas{
+        font-size: 1rem;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 395px) {
+
+    .content-inicio{
+        margin: 1.5rem 0;
+    }
+
+
+    .content-img .cuadro-uno{
+        width: 240px;
+        height: 240px;
+        margin: auto;
+        
+    }
+
+
+    .cuadro-uno .cuadro-dos{
+        width: 230px;
+        height: 230px;
+    
+    }  
+
+
+    .cont-title h1{
+        font-size: 1.3rem;
+        margin: 1rem auto;
+
+    }
+
+    .cont-sub-title .sub-title{
+        width: 96%;
+        font-size: 1.1rem;
+        margin: 1rem auto; 
+    }
+
+    .content-saberMas .saberMas{
+        font-size: 1rem;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 395px) {
+
+    .content-inicio{
+        margin: 1.5rem 0;
+    }
+
+
+    .content-img .cuadro-uno{
+        width: 210px;
+        height: 210px;
+        margin: auto;
+        padding-left: 20px;
+        
+    }
+
+
+    .cuadro-uno .cuadro-dos{
+        width: 210px;
+        height: 210px;
+        
+    
+    }  
+
+
+    .cont-title h1{
+        font-size: 1rem;
+        margin: 1rem auto;
+
+    }
+
+    .cont-sub-title .sub-title{
+        width: 96%;
+        font-size: 0.8rem;
+        margin: 0.3rem auto; 
+    }
+
+    .content-saberMas .saberMas{
+        font-size: 0.7rem;
+    }
+    
+}
+
+
